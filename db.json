@@ -1,0 +1,236 @@
+{
+    "shows": [
+        {
+            "name": "The Crown",
+            "image": "https://m.media-amazon.com/images/M/MV5BZTEyNjBjYmYtYWYxYi00MmQyLThlYmItY2I4NzM1Mjg1MWYxXkEyXkFqcGdeQXVyMTU3ODI3MTk2._V1_.jpg",
+            "rating": "9.0",
+            "synopsis": "Follows the political rivalries and romance of Queen Elizabeth II's reign and the events that shaped the second half of the 20th century.",
+            "seasons": "4",
+            "episodes": "40",
+            "cast": "Claire Foy, Matt Smith, Olivia Colman",
+            "creator": "Peter Morgan"
+        },
+        {
+            "name": "Black Mirror",
+            "image": "https://pics.filmaffinity.com/black_mirror-872421892-large.jpg",
+            "rating": "8.8",
+            "synopsis": "An anthology series exploring a twisted, high-tech world where humanity's greatest innovations and darkest instincts collide.",
+            "seasons": "5",
+            "episodes": "19",
+            "cast": "Daniel Lapaine, Hannah John-Kamen, Michaela Coel",
+            "creator": "Charlie Brooker"
+        },
+        {
+            "name": "The Haunting of Hill House",
+            "image": "https://m.media-amazon.com/images/M/MV5BMTU4NzA4MDEwNF5BMl5BanBnXkFtZTgwMTQxODYzNjM@._V1_FMjpg_UX1000_.jpg",
+            "rating": "8.8",
+            "synopsis": "Flashing between past and present, a fractured family confronts haunting memories of their old home and the terrifying events that drove them from it.",
+            "seasons": "2",
+            "episodes": "22",
+            "cast": "Michiel Huisman, Carla Gugino, Timothy Hutton",
+            "creator": "Mike Flanagan"
+        },
+        {
+            "name": "The Witcher",
+            "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRrq6cRK12zrAuOlcUjC7auIPLMdvUJSlS0IzoYkaGF5mOYFim1",
+            "rating": "8.3",
+            "synopsis": "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.",
+            "seasons": "2",
+            "episodes": "16",
+            "cast": "Henry Cavill, Anya Chalotra, Freya Allan",
+            "creator": "Lauren Schmidt Hissrich"
+        },
+        {
+            "name": "Money Heist",
+            "image": "https://m.media-amazon.com/images/I/71w8USjAGfL._RI_.jpg",
+            "rating": "8.4",
+            "synopsis": "A group of very peculiar robbers have assaulted the Factory of Moneda and Timbre to carry out the most perfect robbery in the history of Spain and taking home 2,400 million euros.",
+            "seasons": "5",
+            "episodes": "65",
+            "cast": "Úrsula Corberó, Itziar Ituño, Álvaro Morte",
+            "creator": "Álex Pina"
+        },
+        {
+            "name": "Narcos",
+            "image": "https://flxt.tmsimg.com/assets/p11993086_b_v13_ag.jpg",
+            "rating": "8.8",
+            "synopsis": "The true story of Colombia's infamously violent and powerful drug cartels.",
+            "seasons": "3",
+            "episodes": "30",
+            "cast": "Wagner Moura, Boyd Holbrook, Pedro Pascal",
+            "creator": "Samuel Adelson"
+        },
+        {
+            "name": "Stranger Things",
+            "image": "https://resizing.flixster.com/0xxuABVVuzJrUT130WFHKE-irEg=/ems.cHJkLWVtcy1hc3NldHMvdHZzZWFzb24vNzUyMTFhOTktZTU4Ni00ODkyLWJlYjQtZTgxYTllZmU2OGM0LmpwZw==",
+            "rating": "9.0",
+            "synopsis": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying supernatural forces in order to get him back.",
+            "seasons": "4",
+            "episodes": "32",
+            "cast": "Millie Bobby Brown, Finn Wolfhard, Winona Ryder",
+            "creator": "The Duffer Brothers"
+        },
+        {
+            "name": "Breaking Bad",
+            "image": "https://m.media-amazon.com/images/M/MV5BYTU3NWI5OGMtZmZhNy00MjVmLTk1YzAtZjA3ZDA3NzcyNDUxXkEyXkFqcGdeQXVyODY5Njk4Njc@._V1_.jpg",
+            "rating": "9.5",
+            "synopsis": "A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine in order to secure his family's future.",
+            "seasons": "5",
+            "episodes": "62",
+            "cast": "Bryan Cranston, Aaron Paul, Anna Gunn",
+            "creator": "Vince Gilligan"
+        },
+        {
+            "name": "Game of Thrones",
+            "image": "https://m.media-amazon.com/images/M/MV5BYTRiNDQwYzAtMzVlZS00NTI5LWJjYjUtMzkwNTUzMWMxZTllXkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_.jpg",
+            "rating": "9.3",
+            "synopsis": "Nine noble families fight for control over the mythical lands of Westeros, while a forgotten race returns after being dormant for thousands of years.",
+            "seasons": "8",
+            "episodes": "73",
+            "cast": "Emilia Clarke, Kit Harington, Lena Headey",
+            "creator": "David Benioff, D. B. Weiss"
+        },
+        {
+            "name": "The Office",
+            "image": "https://roost.nbcuni.com/bin/viewasset.html/content/dam/Peacock/Landing-Pages/library/theoffice/mainpage/office-vertical-art.jpg/_jcr_content/renditions/original.JPEG",
+            "rating": "8.8",
+            "synopsis": "A mockumentary on a group of typical office workers, where the workday consists of ego clashes, inappropriate behavior, and tedium.",
+            "seasons": "9",
+            "episodes": "201",
+            "cast": "Steve Carell, Rainn Wilson, John Krasinski",
+            "creator": "Greg Daniels"
+        },
+        {
+            "name": "Peaky Blinders",
+            "image": "https://m.media-amazon.com/images/M/MV5BZjYzZDgzMmYtYjY5Zi00YTk1LThhMDYtNjFlNzM4MTZhYzgyXkEyXkFqcGdeQXVyMTE5NDQ1MzQ3._V1_.jpg",
+            "rating": "8.8",
+            "synopsis": "A gangster family epic set in 1919 Birmingham, England and centered on a gang who sew razor blades in the peaks of their caps, and their fierce boss Tommy Shelby.",
+            "seasons": "6",
+            "episodes": "39",
+            "cast": "Cillian Murphy, Helen McCrory, Paul Anderson",
+            "creator": "Steven Knight"
+        },
+        {
+            "name": "The Sopranos",
+            "image": "https://m.media-amazon.com/images/M/MV5BZGJjYzhjYTYtMDBjYy00OWU1LTg5OTYtNmYwOTZmZjE3ZDdhXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg",
+            "rating": "9.2",
+            "synopsis": "New Jersey mob boss, Tony Soprano, deals with personal and professional issues in his home and business life.",
+            "seasons": "6",
+            "episodes": "86",
+            "cast": "James Gandolfini, Lorraine Bracco, Edie Falco",
+            "creator": "David Chase"
+        },
+        {
+            "name": "The Big Bang Theory",
+            "image": "https://www.tvguide.com/a/img/catalog/provider/1/1/1-6482810627.jpg",
+            "rating": "8.2",
+            "synopsis": "A woman who moves into an apartment across the hall from two brilliant but socially awkward physicists shows them how little they know about life outside of the laboratory.",
+            "seasons": "12",
+            "episodes": "279",
+            "cast": "Johnny Galecki, Jim Parsons, Kaley Cuoco",
+            "creator": "Chuck Lorre, Bill Prady"
+        },
+        {
+            "name": "Friends",
+            "image": "https://flxt.tmsimg.com/assets/p183931_b_v8_ac.jpg",
+            "rating": "9.0",
+            "synopsis": "The lives, loves, and laughs of six young friends living in Manhattan.",
+            "seasons": "10",
+            "episodes": "236",
+            "cast": "Jennifer Aniston, Courteney Cox, Lisa Kudrow",
+            "creator": "David Crane, Marta Kauffman"
+        }
+    ],
+    "movies": [
+        {
+            "name": "Inception",
+            "image": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg",
+            "rating": "8.8",
+            "synopsis": "A thief, who steals corporate secrets through the use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.",
+            "duration": "148 min",
+            "cast": "Leonardo DiCaprio, Tom Hardy, Ken Watanabe",
+            "director": "Christopher Nolan"
+        },
+        {
+            "name": "The Dark Knight",
+            "image": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg",
+            "rating": "9.0",
+            "synopsis": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+            "duration": "152 min",
+            "cast": "Christian Bale, Heath Ledger, Aaron Eckhart",
+            "director": "Christopher Nolan"
+        },
+        {
+            "name": "The Shawshank Redemption",
+            "image": "https://flxt.tmsimg.com/assets/p15987_p_v8_ai.jpg",
+            "rating": "9.3",
+            "synopsis": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+            "duration": "142 min",
+            "cast": "Tim Robbins, Morgan Freeman, Bob Gunton",
+            "director": "Frank Darabont"
+        },
+        {
+            "name": "The Godfather",
+            "image": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+            "rating": "9.2",
+            "synopsis": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+            "duration": "175 min",
+            "cast": "Marlon Brando, Al Pacino, James Caan",
+            "director": "Francis Ford Coppola"
+        },
+        {
+            "name": "The Matrix",
+            "image": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+            "rating": "8.7",
+            "synopsis": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+            "duration": "136 min",
+            "cast": "Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss",
+            "director": "The Wachowski Brothers"
+        },
+        {
+            "name": "Goodfellas",
+            "image": "https://m.media-amazon.com/images/M/MV5BY2NkZjEzMDgtN2RjYy00YzM1LWI4ZmQtMjIwYjFjNmI3ZGEwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+            "rating": "8.7",
+            "synopsis": "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito in the Italian-American crime syndicate.",
+            "duration": "146 min",
+            "cast": "Robert De Niro, Ray Liotta, Joe Pesci",
+            "director": "Martin Scorsese"
+        },
+        {
+            "name": "The Silence of the Lambs",
+            "image": "https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+            "rating": "9.0",
+            "synopsis": "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims.",
+            "duration": "118 min",
+            "cast": "Jodie Foster, Anthony Hopkins, Scott Glenn",
+            "director": "Jonathan Demme"
+        },
+        {
+            "name": "The Prestige",
+            "image": "https://m.media-amazon.com/images/I/51wILNNX2VL._AC_SY580_.jpg",
+            "rating": "8.5",
+            "synopsis": "Two stage magicians engage in competitive one-upmanship in an attempt to create the ultimate stage illusion.",
+            "duration": "130 min",
+            "cast": "Hugh Jackman, Christian Bale, Michael Caine",
+            "director": "Christopher Nolan"
+        },
+        {
+            "name": "The Departed",
+            "image": "https://m.media-amazon.com/images/I/51ysmjUAA2L._AC_UF894,1000_QL80_.jpg",
+            "rating": "8.5",
+            "synopsis": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.",
+            "duration": "151 min",
+            "cast": "Leonardo DiCaprio, Matt Damon, Jack Nicholson",
+            "director": "Martin Scorsese"
+        },
+        {
+            "name": "Fight Club",
+            "image": "https://flxt.tmsimg.com/assets/p23069_p_v8_aa.jpg",
+            "rating": "8.8",
+            "synopsis": "An unnamed man, suffering from insomnia, struggles with his sanity and becomes plagued by hallucinations of a man who is similar to him, following the founding of a fight club with a mysterious man named Tyler Durden.",
+            "duration": "139 min",
+            "cast": "Brad Pitt, Edward Norton, Helena Bonham Carter",
+            "director": "David Fincher"
+        }
+    ]
+}
