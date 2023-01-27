@@ -1,29 +1,27 @@
 import { useEffect, useState } from 'react'
-import { Routes, Route, useNavigate } from 'react-router-dom' // also for react router. Making different URLs. It's Routes for reactrouterv6, Switch was v5
+import { RouterProvider, createBrowserRouter } from 'react-router-dom' // also for react router. Making different URLs. It's Routes for reactrouterv6, Switch was v5
 import Homepage from './/Homepage'
 import Signup from './Signup'
 import MovieCard from "./MovieCard"
-import SearchBar from './SearchBar'
 import Favorite from "./Favorite"
-
 import "./App.css";
+import MovieTrailer from "./MovieTrailer"
 
 
 const App = () => {
   const [movies, setMovies] = useState ([])
-  const [search, setSearch] = useState("")
   const [favorite, setFavorite] = useState([])
+  const [search, setSearch] = useState('')
 
-  useEffect(()=>{
+  useEffect(() => {
     const request = async () => {
       let req = await fetch("http://localhost:9292/movies")
       let res = await req.json()
       setMovies(res)
     }
     request()
-    },[])
+  }, [])
 
-     const navigate = useNavigate()
 
   // function for create account to go to signup page
   const signupClick = () => {
@@ -38,7 +36,7 @@ const App = () => {
     e.preventDefault()
     navigate('/moviecard')
   }
-  
+
   const addMovie = (movie) => {
     if (favorite.includes(movie)) return;
     setFavorite([...favorite, movie])
@@ -48,15 +46,45 @@ const App = () => {
     setFavorite(favorite.filter(x => x !== movie))
   }
 
+  const newMovie = async (movie) => {
+    let req = await fetch("http://localhost:9292/movies", {
+      method: "POST",
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ 'name': "Blaziken", 'image': 'https://i.pinimg.com/236x/71/4c/94/714c942405dd3f487b50e86a30a9e1fe--passion-pictures.jpg' })
+    })
+    setMovies(movies, movie)
+  }
+
+  const delMovie = async (movie) => {
+    let req = await fetch(`http://localhost:9292/movies${movie.id}`, {
+      method: "DELETE",
+    })
+    setMovies(movie.filter(x => x.id !== movie.id))
+  }
+
+  const router = createBrowserRouter([
+    { path: '/',
+    element: < Homepage signupClick={ signupClick } handleLoginSubmit={ handleLoginSubmit } />
+  },
+  { path: '/signup',
+   element: < Signup handleSignupSubmit = { handleSignupSubmit } />
+  }, 
+  {path:'/favorite',
+   element: < Favorite favorite = { favorite } deleteMovie={deleteMovie}/>
+  },
+  {
+  path: '/moviecard',
+    element: < MovieCard movies={movies} search={search} setSearch={setSearch} addMovie={addMovie} newMovie={newMovie} delMovie={delMovie}/>
+ },
+ {
+  path: "/movietrailer",
+  element: <MovieTrailer />
+ }
+  ])
+
  return( 
 <div>
-    <SearchBar search={search} setSearch={setSearch} />
-  <Routes>
-    <Route exact path='/' element={<Homepage signupClick={signupClick} handleLoginSubmit={handleLoginSubmit} />} />
-    <Route exact path='/signup' element={<Signup handleSignupSubmit={handleSignupSubmit} />} />
-    <Route exact path='/favorite' element={<Favorite favorite={favorite}/>} />
-    <Route exact path='/moviecard' element={<MovieCard movies={movies} search={search} addMovie={addMovie} />} />
-  </Routes>
+    <RouterProvider router={router}/>
 </div>
  )
 }

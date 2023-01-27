@@ -14,7 +14,7 @@ const Signup = ({ handleSignupSubmit }) => {
                     <label>Password: </label>
                     <input type='password' name='password' />
                     <br />
-                    <button>Sign up</button>
+                    <button className="button-4">Sign up</button>
                 </form>
             </div>
         </div>

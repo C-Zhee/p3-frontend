@@ -12,7 +12,7 @@ const Login = ({ handleLoginSubmit }) => {
             <label>Password: </label>
             <input type='password' name='password' required onChange={(e) => setPassword(e.target.value)} />
             <br />
-            <Link to={'/moviecard'}><button>Login</button></Link>
+            <Link to={'/moviecard'}><button className="button-4">Login</button></Link>
         </form>
     )
 }
