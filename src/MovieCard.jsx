@@ -1,6 +1,7 @@
 import MovieInfo from "./MovieInfo"
+import SearchBar from "./SearchBar"
 
-const MovieCard = ({movies, search}) => {
+const MovieCard = ({movies, search, addMovie}) => {
 
     const filteredShows = movies.filter((movie) => {
         return movie.name.toLowerCase().includes(search.toLowerCase())
@@ -12,7 +13,7 @@ const MovieCard = ({movies, search}) => {
             {/* replaced movies with filteredShows */}
             {filteredShows.map((movie) => {
                 return (
-                    <div onClick={() => { addMember(unit) }}>
+                    <div onClick={() => { addMovie(unit) }}>
                     <MovieInfo movie={movie} />
                     </div>
                     )

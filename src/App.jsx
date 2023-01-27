@@ -12,10 +12,11 @@ import "./App.css";
 const App = () => {
   const [movies, setMovies] = useState ([])
   const [search, setSearch] = useState("")
+  const [favorite, setFavorite] = useState([])
 
   useEffect(()=>{
     const request = async () => {
-      let req = await fetch("http://localhost:3000/movies")
+      let req = await fetch("http://localhost:9292/movies")
       let res = await req.json()
       setMovies(res)
     }
@@ -37,23 +38,24 @@ const App = () => {
     e.preventDefault()
     navigate('/moviecard')
   }
-  // const addMovie = (movie) => {
-  //   if (party.includes(movie)) return;
-  //   setFavorite([...party, movie])
-  // }
+  
+  const addMovie = (movie) => {
+    if (favorite.includes(movie)) return;
+    setFavorite([...favorite, movie])
+  }
 
-  // const deleteMovie = (movie) => {
-  //   setFavorite(party.filter(x => x !== movie))
-  // }
+  const deleteMovie = (movie) => {
+    setFavorite(favorite.filter(x => x !== movie))
+  }
 
  return( 
 <div>
+    <SearchBar search={search} setSearch={setSearch} />
   <Routes>
     <Route exact path='/' element={<Homepage signupClick={signupClick} handleLoginSubmit={handleLoginSubmit} />} />
     <Route exact path='/signup' element={<Signup handleSignupSubmit={handleSignupSubmit} />} />
-    <Route exact path='/searchbar' element={<SearchBar search={search} setSearch={setSearch} />} />
-    <Route exact path='/favorite' element={<Favorite />} />
-    <Route exact path='/moviecard' element={<MovieCard movies={movies} search={search} />} />
+    <Route exact path='/favorite' element={<Favorite favorite={favorite}/>} />
+    <Route exact path='/moviecard' element={<MovieCard movies={movies} search={search} addMovie={addMovie} />} />
   </Routes>
 </div>
  )

@@ -1,8 +1,16 @@
-const Favorite = () => {
+const Favorite = ({favorite, deleteMovie}) => {
     return (
-        <div>
-          
-            
+        <div >
+            {
+                favorite.map((movie) => {
+                    return (
+                        <div onClick={() => { deleteMovie(movie) }}>
+                            <img src={movie.image} />
+                            <p>{movie.name}</p>
+                        </div>
+                    )
+                })
+            }
         </div>
     )
 }

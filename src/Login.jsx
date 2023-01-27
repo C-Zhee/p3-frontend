@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 const Login = ({ handleLoginSubmit }) => {
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
@@ -11,7 +12,7 @@ const Login = ({ handleLoginSubmit }) => {
             <label>Password: </label>
             <input type='password' name='password' required onChange={(e) => setPassword(e.target.value)} />
             <br />
-            <button>Login</button>
+            <Link to={'/moviecard'}><button>Login</button></Link>
         </form>
     )
 }
